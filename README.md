@@ -25,13 +25,14 @@
 	- Step6: Check for class imbalances, Identify least and maximun number of samples 
     - Step7: Use Augmentor to add 500 samples to decrease the class imbalance.
 	- Step8: Build and train the final model.
-	- 
 	
 - Following are conclusions from Regularization
-	- At step 4 with base CNN model there is very low accuracy.
-    - At step 5 After data augmentation not much much improvement is seen in the accuracy.
-    - After using augmentor and addressing the data imbalance the final model has given very good training and validation accuracy.
-    - 
+	- At step 4 with base CNN model we can see the model is over fit as the there is big difference between training and validation accuracies.
+    - At step 5 with data augmentation and dropout layers addition we can observe that overfit issue is resolved, but the accuracy of both train and validation sets are low.
+    - After using Augmentor and addressing the data imbalance the final model has given very good training and validation accuracy.
+	- Final Accuracy scores:
+		- Training Accuracy: 85.05
+		- Validation Accuracy: 80.25
 
 ## Technologies Used
 - Python - version 3.0
