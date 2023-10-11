@@ -1,5 +1,5 @@
 # Project Name
-> Advanced Linear Regression model for the prediction of house rates in Austrailia for US based company.
+> Convolutional Neural Network model for the Melanoma(Skin cancer) detection.
 
 
 ## Table of Contents
